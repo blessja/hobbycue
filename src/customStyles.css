@@ -1,0 +1,183 @@
+.btn-custom {
+    color: #fff;
+    background-color: #8064A2;
+    border-color: #8064A2;
+}
+
+.btn-custom:hover,
+.btn-custom:focus,
+.btn-custom:active {
+    background-color: #6b5493;
+    border-color: #6b5493;
+}
+
+.custom-navbar {
+    width: 1440px;
+    height: 80px;
+}
+
+.button-group-container {
+    display: flex;
+    gap: 4px;
+}
+
+.button-group-container2 {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.btn-2 {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #fff;
+    border: 1px solid #8064A2;
+    border-radius: 8px;
+    height: 40px;
+    width: 122px;
+
+}
+
+.btn-1 {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #fff;
+    border: 1px solid #8064A2;
+    border-radius: 8px;
+    height: 40px;
+    width: 410px;
+
+}
+
+.btn-3 {
+    border: 1px solid #8064A2 !important;
+    border-radius: 8px;
+}
+
+.inv {
+    border: 1px solid #8064A2 !important;
+}
+
+.list-inline-item {
+    color: #8064A2 !important;
+}
+.btn-1:focus {
+    border-bottom: 2px solid #000;
+    outline: none;
+}
+.btn-1 .fab {
+    position: absolute;
+    left: 10px;
+}
+
+.btn-1 .button-text {
+    flex-grow: 1;
+    text-align: center;
+}
+
+.btn-custom2 {
+    border: none;
+    border-bottom: 2px solid transparent;
+    padding: 10px 20px;
+    background-color: transparent;
+    color: #939CA3;
+}
+
+.btn-custom2:focus {
+    border-bottom: 2px solid #8064A2;
+;
+    outline: none;
+    color: #8064A2;
+
+}
+
+.google-icon {
+    color: #DB4437;
+}
+
+.facebook-icon {
+    color: #3b5998;
+}
+
+
+.hover-div {
+    transition: background-color 0.3s;
+}
+
+.hover-div:hover {
+    background-color: #8064A2;
+}
+
+
+.text-custom {
+    font-size: 16px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.custom-add {
+
+    width: 1240px;
+    height: 284px;
+    background: #FFFFFF;
+}
+
+.custom-add2 {
+    width: 1240px;
+    height: 472px;
+    top: 100px;
+    left: 100px;
+    gap: 0px;
+}
+
+.main-1 {
+    height: 484px;
+background-color: #F7FDFF;
+}
+
+.main-2 {
+    height: 672px;
+    background-color: #FFFFFF;
+;
+}
+
+
+.custom-div {
+    width: 608px;
+    height: 297px;
+    background-color: #FFFFFF; /* Example background color */
+    display: flex;
+    border-radius: 8px;
+    border: 1px solid #CED4DA;
+}
+
+
+.custom-ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.custom-ul li a {
+    text-decoration: none;
+    color: #000;
+}
+
+.custom-ul li a:hover {
+
+    text-decoration: none;
+}
+
+
+
+@media (max-width: 767.98px) {
+    .custom-div {
+        width: 100%;
+    }
+}
+
+
