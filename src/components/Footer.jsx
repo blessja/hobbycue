@@ -69,7 +69,7 @@ const Footer = () => {
           </div>
 
           {/* Footer Bottom */}
-          <div style={{backgroundColor: "#F7F5F9", width: "1440px", height: "78px"}} className="row mt-5 container d-flex justify-content-around">
+          <div style={{backgroundColor: "#F7F5F9", height: "78px"}} className="row mt-5 container d-flex justify-content-around">
             <div className="col-md-6 col-lg-8 d-flex justify-content-center align-items-center">
               <p className="fw-bold">
                 &copy; {new Date().getFullYear()} Purple Cues Private Limited
